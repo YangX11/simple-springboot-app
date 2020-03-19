@@ -9,7 +9,6 @@ public class HelloWordController {
 
     @RequestMapping({"/","/index"})
     public String index(){
-        return "Hello Word\n" +
-                "test jenkins success";
+        return "test jenkins success";
     }
 }
